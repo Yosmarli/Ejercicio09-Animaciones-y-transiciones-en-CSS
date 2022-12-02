@@ -1,0 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-modern {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(72, 49, 114);
+  cursor: pointer;
+  transition: all 0.4s;
+  font-size: 14pt;
+}
+
+.btn-modern:hover {
+  transform: translateY(-5px);
+  background-color: rgb(196, 28, 196);
+  box-shadow: 0 3px rebeccapurple;
+  color: white;
+}
